@@ -1,0 +1,883 @@
+
+#parallax { /* The image used */
+    background-image: url('/Content/Comingsoon/images/santorini.jpeg');
+    /* Set a specific height */
+    height: 350px;
+    width: 120%;
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -5em;
+    margin-left: -4em;
+    text-align: center;
+    justify-content: center;
+    opacity: 0.9;
+    background-color: black;
+}
+
+
+
+#itinDetailCover {
+    height: auto;
+    background-image: url('/Content/Comingsoon/images/santorini.jpeg');
+    background-size: cover;
+    background-position-y: center;
+    margin-top: 15em;
+    margin-bottom: 5em;
+}
+
+
+#outerbox { 
+
+Display: block; 
+position: relative;
+
+
+}
+
+.overheadtext {  
+
+font-family: montserrat; 
+color:black; 
+font-size: 2em; 
+align-content: center; 
+padding-top: 1em; 
+margin-left: -4em;
+
+
+}
+
+
+.h2 { font-family: montserrat-light; 
+ text-align: center ; 
+ justify-content: center;  
+
+
+}
+
+.topnav {  
+
+    font-family: montserrat-regular; 
+    font-size: 1.2em; 
+   
+}
+   
+
+.topnav a { 
+
+    border: 1em; 
+    margin-left: 1.8em; 
+    margin-bottom: 2em; 
+    margin-right: 40px; 
+    padding: 1em 1em ;
+    overflow: hidden; 
+    color: black; 
+}
+
+
+#submit { 
+background-color: #90CECC ; 
+
+    margin-top: 20em; 
+    border: none; 
+    text-align: center; 
+    border-radius: 0.2em; 
+    font-family: montserrat-light; 
+    font-size: 0.6em; 
+    display: inline-block; 
+    width: 10%; 
+    height: 10%; 
+    padding: 0.8em 1em; 
+    color:white; 
+
+   
+}
+
+#beta-invite { 
+
+    margin-right: 0 ;
+    margin-left: 1em; 
+    margin-top: -0.4em; 
+    background-color: #FCfcfC; 
+    border-style: solid; 
+    border-color: none; 
+    text-align: center; 
+    border-radius: 0.2em; 
+    font-family: montserrat-light; 
+    font-size: 0.6em; 
+    display: inline-block; 
+    width: 10%; 
+    height: 10%; 
+    padding: 0.8em 1em; 
+    color: grey ; 
+    
+
+}
+
+
+
+
+#text-itin { 
+     font-size: 1.8em; 
+     font-family: montserrat-medium ;
+     color: #FCfcfC; 
+     position: relative ; 
+     top: 30% ; 
+     bottom: 50% ; 
+     text-align: center; 
+     letter-spacing: 0.05em; 
+     word-break: 0.05em; 
+     padding: auto; 
+     margin: auto; 
+     justify-content: center; 
+     vertical-align: auto;
+     
+
+     
+    }
+
+#highlights { font-size: 1em ; 
+    font-family: montserrat-light ; 
+    position: absolute ; 
+    right: 13px; 
+    bottom: 8px ; 
+    color: white ; 
+
+
+    
+}    
+
+#logo {
+    margin-bottom: 0em; 
+    margin-top: -3.5em;
+    margin-left: 3em; 
+    margin-right: 4em; 
+
+} 
+
+ .logo {
+     font-size: 1.2em;
+     font-family: montserrat;
+     background: white ; 
+     padding: 40px;
+     border: 1px; 
+     margin-left: 1em;
+     margin-right: 4em;  
+     margin-bottom: -3em; 
+  
+     
+     
+      
+     }
+
+ .logo-text { font-size: 1em ;
+font-family: montserrat-regular ;
+padding: 6px; 
+margin-top: 0.7em; 
+ }
+
+.menu { 
+margin-top: 20px; 
+font-family: montserrat-light ; 
+font-size: 1.05em ; 
+margin-left: 10px auto ;
+margin-right: 10px ;
+padding: 20px; 
+margin-bottom: 70px; 
+display: wrap; 
+font-display: flex; 
+
+
+}
+
+
+
+.profile-picture { 
+ 
+margin-left: 10px; 
+position: relative; 
+flex-shrink: inherit; 
+margin-left: 50px; 
+width: auto; 
+height: auto; 
+object-fit: contain; 
+display:inline-block; 
+
+}
+
+
+.welcome {
+font-family: montserrat-regular; 
+font-size: 40px; 
+margin-left: 20px ; 
+position: relative; 
+
+}
+
+#explore-bar {
+border: 1px yellow ; 
+padding-left: 10px ; 
+flex-shrink: inherit; 
+display: inline-block; 
+
+}
+
+#txtExplore {  
+    border: 3px ; 
+    background-color: #f1f1f1;
+    padding: 30px; 
+    font-family: montserrat; 
+    font-size: 15px; 
+    opacity: 0.9 ; 
+    margin-left: 12px; 
+    width: 280% ; 
+    text-align: left; 
+
+
+}
+
+#welcome-home {
+
+    margin-left: 160px; 
+    margin-bottom: 35px; 
+    margin-top: -40px; 
+    
+}
+
+
+ .header {
+    color:black;
+    text-align: center;
+    padding: 20px;
+    border: 1px; 
+}
+ 
+.body {
+  
+}
+
+
+#row-itinerary { 
+    display: flex;
+    flex-wrap: wrap; 
+    margin-left: 4.4em ;
+    margin-right: 4.6em;  
+    position: relative;
+    align-content: center; 
+    padding: 40px 70px ;
+    background: no-repeat; 
+    max-width: auto;
+    margin-top: 0.8em; 
+    justify-content: center;
+    margin-bottom: -80px; 
+   text-align: center;
+   
+    
+
+
+  }
+
+  .item img 
+  {
+    max-width: 100%;
+    
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; 
+
+}
+  
+  
+    #row-itinerary2 { 
+    display: flex; 
+    flex-wrap: wrap;
+    margin-top: 0.8em; 
+    position: relative;
+    align-content: center; 
+    background: no-repeat; 
+    max-width: auto;
+    padding: 50px 80px ;
+    
+    
+  }
+
+
+
+
+
+
+ .itinPic {
+     background-position: center;
+     justify-content: center; 
+     background-repeat: no-repeat; 
+     height: 453px; 
+     width: 354px ; 
+     max-width: 100% ; 
+     display: block; 
+     margin-left: 2em ; 
+     margin-right: 2em ; 
+     padding:1.2em ;
+     padding-right: 2.6em;
+     opacity: 2.5;
+     backface-visibility:"hidden";
+     transition: .5s ease;
+     object-fit: cover;
+     overflow: hidden;
+     background-size: cover; 
+     text-align: center; 
+    
+    
+     
+ }
+
+ .itinerary-button { 
+        position: absolute;
+        top: 65%;
+        left: 40%;
+        background-color:#90CECC;
+        color: white;
+        font-size: 15px;
+        font: montserrat-light; 
+        padding: 13px 26px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+.row-itinerary:hover  img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#itinerary-detail {
+
+    Font: montserrat-regular ; 
+
+}
+
+/* Style the header */
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  
+ 
+  /* Iphone 6 plus screen */
+  @media only screen 
+  and (min-width : 375px) 
+  and (max-width : 667px){
+    .logo {
+    margin-top: - 1em; 
+    margin-left: 1em; 
+    align-content: center; 
+    display: inline-block; 
+    
+    
+   
+     
+    }
+}
+
+  /* Iphone 6 plus screen */
+  @media only screen 
+  and (min-width : 375px) 
+  and (max-width : 667px){
+    #parallax { /* The image used */
+        background-image: url('/Content/Comingsoon/images/santorini.jpeg');
+        height: 350px;
+        width: 135vw;
+        background-position: fixed;
+        /* Create the parallax scrolling effect */
+        margin-left: -4em;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 3em;
+        margin-top: 0.1em;
+        position: relative;
+        opacity: 0.4;
+    } 
+   
+
+    } 
+
+
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px) { 
+    #row-itinerary {
+    margin-top: -2em; 
+    padding-left: auto; 
+    padding-right: auto; 
+    align-content: center;
+    justify-content: center; 
+    border: 1em auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+    position: relative; 
+    margin-bottom: -2.5em; 
+    padding-bottom: 1em; 
+    row-gap: 1em; 
+    display: grid;
+   
+    }
+}
+
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px) { 
+    .itinerary-button {  
+        width: auto ; 
+        height: auto; 
+        font-size: auto; 
+        margin-top: -1.2em; 
+        
+    }
+}
+
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px) { 
+    #highlights { 
+    font-family: blogger sans  ;   
+    font-size: 1.2em;
+    margin-right: 1.5em;
+    margin-top: -10em; 
+    
+     
+    }
+    }
+
+
+    @media only screen 
+and (min-width : 375px) 
+and (max-width : 667px) { 
+    .itinPic { 
+        height: 300px ; 
+        justify-content: center; 
+        text-align: center;  
+        padding-left: 2em; 
+        border-radius: 3px; 
+        margin-left: 2em;
+
+       
+        
+
+
+    } 
+} 
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px)  {
+    #text-itin {
+    font-size: 2.2em;
+    text-align: left;  
+    font-family: 'blogger sans' ; 
+    margin-top: -0.7em; 
+    margin-bottom: 3em;
+    padding-bottom: 1em; 
+    margin-right: 2em; 
+    line-height: 1.2em;
+    word-break: 0.02em; 
+    }
+}
+
+
+
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px)  {
+    #logo {
+    object-fit: contain; 
+    margin-left: 14em ;
+    margin-bottom: -5.5em; 
+    opacity: 1; 
+    background-position: left 10px; 
+    background-image: url('/Content/Comingsoon/images/Inspirtripwhite');
+    
+
+    }
+}
+
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px)  {
+    .overheadtext { 
+        font-size: 1.5em; 
+        margin-left: 3.6em; 
+        margin-top: -3em; 
+        padding-top: 7em; 
+        font-family: blogger sans; 
+        text-align: center; 
+        word-spacing: 0.5em;
+        margin-bottom: -2em; 
+        margin-right: 1.5em;
+
+
+    } 
+
+} 
+
+
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px)  {
+    #submit {
+    font-size: 0.8em; 
+    width: 25%;
+    height: 12%; 
+    text-align: center;
+
+    margin-left: 4.5em ;
+    display: inline-block;    
+    justify-content: center;
+    margin-top: 0em; 
+    font-family: montserrat; 
+
+
+}
+}
+
+
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px)  {
+    #beta-invite {
+    font-size: 0.8em; 
+    height: 12% ; 
+    width: 25%;    
+    display: inline-block;
+    text-align: center;  
+    opacity: 0.9; 
+    
+  
+   
+   
+
+    }
+}
+
+
+
+
+
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px) 
+and (orientation : landscape) 
+{ #beta-invite {
+    font-size: 0.5em; 
+    margin-right: -17em; 
+    width: 20%;    
+    display: inline-block;
+    height: 16%;
+    margin-top: -10em; 
+
+    }
+
+}
+
+
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px) 
+and (orientation : landscape) 
+{
+    #submit {
+    font-size: 0.5em; 
+    width: 48%;
+    height: 20%; 
+    text-align: center;
+    max-width: 100% ;
+    margin-left: 5em ;
+    display: inline-block;    
+    justify-content: center;
+    margin-top:-10em; 
+    font-family: montserrat; 
+
+
+}
+}
+
+
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px) 
+and (orientation : landscape) 
+{ 
+    .logo {
+        margin-top: - 1em; 
+        margin-left: 5.2em; 
+        align-content: center; 
+        display: inline-block; 
+    } 
+}    
+
+@media only screen 
+and (min-width : 375px) 
+and (max-width : 667px) 
+and (orientation : landscape) 
+{     #logo {
+    object-fit: contain; 
+    margin-left: 7.5em ;
+    margin-bottom: 1em; 
+    display: block; 
+    margin-right: -3em; 
+
+    }
+}
+
+
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+{ 
+    .itinPic { 
+        background-position: center;
+        justify-content: center; 
+        background-repeat: no-repeat; 
+        height: 30vh; 
+        width: 80vw ; 
+        display: block; 
+        opacity: 2.5;
+        object-fit: cover;
+        background-size: cover; 
+        text-align: center; 
+     
+
+
+    } 
+} 
+
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+{ 
+#row-itinerary { 
+    display: flex;
+    flex-wrap: wrap; 
+    margin-left: -4em ; 
+    position: relative;
+    align-content: center; 
+    margin-top: -3em;
+    margin-top: 0.8em; 
+    justify-content: center;
+    margin-bottom: -80px; 
+   text-align: center;
+   float: left; 
+} 
+
+}
+
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+{ 
+#text-itin{    
+    font-size: 1.2em; 
+    font-family: montserrat ;
+    color: #FCfcfC; 
+    position: relative ; 
+    top: 40% ; 
+    bottom: 50% ; 
+    text-align: center; 
+    letter-spacing: 0.03em; 
+    word-break: 0.02em; 
+    padding: auto; 
+    margin: auto; 
+    justify-content: center; 
+  
+
+}
+} 
+
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+{      #logo {
+    object-fit: contain; 
+    margin-left: -0.2em ;
+    display: block; 
+    margin-right: 5em;
+
+    }
+}
+
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+{      #submit {    
+    font-size: 0.5em; 
+    width: 20%;
+    height: 20%; 
+    text-align: center;
+    max-width: 100% ;
+    margin-left: 6.5em ;
+    display: inline-block;    
+    justify-content: center;
+    margin-top: 0.4em ; 
+    font-family: montserrat; 
+
+} 
+} 
+
+
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+{ #beta-invite {
+    font-size: 0.5em; 
+    margin-right: 0em; 
+    width: 20%;    
+    display: inline-block;
+    height: 20%;
+    margin-top: 0.4em; 
+    margin-right: -10em;
+    }
+}
+
+
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 568px) 
+  { #parallax {  /* The image used */
+      background-image: url('/Content/Comingsoon/images/santorini.jpeg');
+      height: 350px; 
+      width: 155vw ;
+  background-position: fixed; 
+      /* Create the parallax scrolling effect */
+      margin-left: -4em;
+      text-align: center; 
+      justify-content: center;
+  margin-bottom: 3em;
+  margin-top: 0.1em;  } 
+ 
+
+  } 
+
+  
+
+  @media only screen 
+  and (min-width : 320px) 
+  and (max-width : 568px)   {
+    #logo {
+    object-fit: contain; 
+    margin-left: 7.6em ;
+    margin-bottom: -5.5em; 
+    display: block; 
+    background-position: left 10px; } 
+  } 
+    
+
+  @media only screen 
+  and (min-width : 320px) 
+  and (max-width : 568px)
+  {
+    #submit {
+    font-size: 0.8em; 
+    width: 25%;
+    height: 12%; 
+    text-align: center;
+
+    margin-left: 4.5em ;
+    display: inline-block;    
+    justify-content: center;
+    margin-top: 0em; 
+    font-family: montserrat; 
+
+
+}
+}
+
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 568px)  {
+    #beta-invite {
+    font-size: 0.8em; 
+    height: 12% ; 
+    width: 25%;    
+    display: inline-block;
+    text-align: center;  
+    opacity: 0.9; 
+    
+
+    }
+}
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 568px) { 
+    #row-itinerary {
+    margin-top: -2em; 
+    margin-left: 2em;
+    align-content: center;
+    justify-content: center; 
+    border: 1em auto; 
+    display: flex; 
+    flex-wrap: wrap; 
+    position: relative; 
+    margin-bottom: -2.5em; 
+    padding-bottom: 1em; 
+    row-gap: 1em; 
+    display: grid;
+    margin-left: 7em; 
+
+    }
+}
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 568px) { 
+    .itinPic { 
+        height: 260px ; 
+        justify-content: center; 
+        text-align: center; 
+        opacity: 2 ; 
+       
+        border-radius: 3px; 
+        width: 105vw; 
+ 
+       
+
+
+    } 
+} 
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 568px)  {
+    #text-itin {
+    font-size: 2.2em;
+    text-align: left;  
+    font-family: 'blogger sans' ; 
+    margin-top: -1em; 
+    margin-bottom: 3em;
+    padding-bottom: 1em; 
+    margin-right: 0.5em; 
+    line-height: 1.2em;
+    word-break: 0.02em; 
+    }
+}
+
+
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 568px) { 
+    #highlights { 
+    font-family: blogger sans  ;   
+    font-size: 1.2em;
+    margin-right: 12.5em;
+     
+    }
+    }
+
+
+
+
